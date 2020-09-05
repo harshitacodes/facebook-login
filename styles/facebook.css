@@ -67,6 +67,9 @@ h5 span {
     text-overflow: ellipsis;
 }
 
+.create a{
+    color: white;
+}
 a{
     color: #55868f;
     font-size: small;
@@ -111,5 +114,4 @@ a{
     bottom: 33%;
     font-size: 12px;
     line-height: 15px;
-}
 }
