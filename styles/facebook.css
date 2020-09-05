@@ -1,0 +1,115 @@
+form{
+    margin-top: 3px;
+    width: 416px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+
+.inimg{
+    width: 100px;
+}
+
+input{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 1px 1px rgb(190, 190, 190);
+    font-family: Helvetica, Arial, sans-serif;
+    border: rgb(199, 198, 198);
+    color: rgb(7, 6, 7);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 36px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+button{
+    border-color: rgba(0, 0, 0, .1);
+    box-shadow: 1px rgb(111, 118, 211);
+    border-radius: 4px;
+    background-color: #1877f2;
+    width: 93%;
+    height: 34px;
+    color: white;
+}
+
+h5 {
+    margin-left: 16px;
+    width: 93%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(194, 188, 188); 
+    line-height: 0.1em;
+    color: grey;
+
+    } 
+    
+h5 span { 
+    background:rgb(255, 255, 255); 
+    padding:0 10px; 
+}
+
+.create{
+    background: #00a400;
+    height: 33px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+    text-overflow: ellipsis;
+}
+
+a{
+    color: #55868f;
+    font-size: small;
+    font-weight: lighter;
+    text-decoration:none;
+}
+
+.leftdiv{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    bottom: 35%;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    font-family: -apple-system, sans-serif;
+    font-weight: lighter;
+
+}
+
+
+.rightdiv{
+    display: flex;
+    position: absolute;
+    left: 75%;
+    bottom: 35%;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    font-family: -apple-system, sans-serif;
+    font-weight: lighter;
+
+}
+
+.footer{
+    text-align: center;
+    cursor: pointer;
+    color: gray;
+    font-weight: lighter;
+    position: absolute;
+    right: 48%;
+    bottom: 33%;
+    font-size: 12px;
+    line-height: 15px;
+}
+}
